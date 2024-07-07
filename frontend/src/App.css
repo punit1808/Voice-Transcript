@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.outerApp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  
+}
+
+.inner2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  
+}
+.btn1{
+  background-color: green;
+  height: 30px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: rgb(81, 176, 81);
+}
+button:active{
+  background-color: green;
+}
+.txt1{
+  border-radius: 5px;
+}
